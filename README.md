@@ -15,6 +15,8 @@ PyTorch 기반 딥러닝 모델(MLP)과 머신러닝 모델(선형 회귀, 결�
   - AdaBoost
 - **성능 지표**:
   - MSE
+  - MAE
+  - R2
 - **전처리**:
-  - 컬럼 제거 (`Date`, `Functioning Day`, `Dew point temperature(°C)`, `Solar Radiation (MJ/m2)`)
+  - 컬럼 제거 (`Date`, `Functioning Day`)
   - `MinMaxScaler`를 통한 입력 정규화
